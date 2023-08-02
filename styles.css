@@ -1,0 +1,63 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#main-nav{
+  background-color: #4682B4;
+  color: #F0E68C;
+  display: inline-block;
+  height: 125px;
+  text-align: center;
+  width: 100%;
+}
+
+#main-nav h1{
+  font-family: Montserrat;
+  font-size: 38px;
+  margin-top: 40px;
+}
+
+.main-flex-container{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  /* Specifying a specific height will cause containers to not stretch or accomadate children. Use min-height when setting
+  heights to make sure a container changes to accomadate its children. */
+  min-height: 1200px;
+  /* Justify content will only work when there is spare space within the container, do not use all your pixels! */
+  justify-content: space-around;
+  margin: 20px auto;
+  width: 80%;
+}
+
+.flexbox-specs{
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /* Use margins when some items get too cramped together */
+  margin-top: 20px;
+  min-height: 175px;
+  width: 70%;
+}
+
+.to-do-box{
+  background-color: #F0E68C;
+  border: solid 1px black;
+  font-family: Montserrat;
+  height: 160px;
+  margin-bottom: 5px;
+  width: 175px;
+}
+
+.to-do-box h2{
+  margin-top: 60px;
+  text-align: center;
+}
+
+.label{
+  background-color: #4682B4;
+}
